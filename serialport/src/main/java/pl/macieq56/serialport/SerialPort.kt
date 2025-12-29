@@ -60,7 +60,6 @@ class SerialPort(device: File, baudrate: Int, flags: Int) {
         }
       } catch (e: Exception) {
         e.printStackTrace()
-        throw SecurityException()
       }
     }
 
@@ -77,7 +76,7 @@ class SerialPort(device: File, baudrate: Int, flags: Int) {
     private const val TAG = "SerialPort"
     // JNI
     init {
-      System.loadLibrary("serial_port")
+      System.loadLibrary("serialport")
     }
   }
 }
