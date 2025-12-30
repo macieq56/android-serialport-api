@@ -17,7 +17,7 @@ This project is based on the Android Serial Port API by Cedric Priscal (Apache L
 
 ---
 
-## Installation
+## Adding to project
 
 ### Option A — Dependency via JitPack (recommended)
 
@@ -37,7 +37,7 @@ This project is based on the Android Serial Port API by Cedric Priscal (Apache L
 
 ```
    dependencies {
-      implementation("com.github.macieq56:android-serialport-api:v1.0.1")
+      implementation("com.github.macieq56:android-serialport-api:v1.0.2")
    }
 ```
 
